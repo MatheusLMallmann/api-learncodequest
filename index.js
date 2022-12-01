@@ -5,7 +5,6 @@ const cors = require('cors');
 const UserSchema = require("./models/user");
 
 const PORT = process.env.PORT || 3000;
-const { MONGO_URL } = process.env;
 
 // Produção
 /*mongoose.connect(MONGO_URL,{
