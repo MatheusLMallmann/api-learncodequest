@@ -1,0 +1,140 @@
+[
+    {
+        "id": "fifa_pc",
+        "name": "FIFA 23",
+        "price": 2500,
+        "category": "PC"
+    },
+    {
+        "id": "fifa_ps",
+        "name": "FIFA 23",
+        "price": 2500,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "fifa_xbox",
+        "name": "FIFA 23",
+        "price": 2500,
+        "category": "XBOX"
+    },
+    {
+        "id": "mw_pc",
+        "name": "Call of Duty Modern Warfare 2",
+        "price": 3000,
+        "category": "PC"
+    },
+    {
+        "id": "mw_ps",
+        "name": "Call of Duty Modern Warfare 2",
+        "price": 3000,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "mw_xbox",
+        "name": "Call of Duty Modern Warfare 2",
+        "price": 3000,
+        "category": "XBOX"
+    },
+    {
+        "id": "god_ps",
+        "name": "God of War Ragnarok",
+        "price": 3000,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "gk_ps",
+        "name": "Gotham Knights",
+        "price": 1750,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "gk_pc",
+        "name": "Gotham Knights",
+        "price": 1750,
+        "category": "PC"
+    },
+    {
+        "id": "gk_xbox",
+        "name": "Gotham Knights",
+        "price": 1750,
+        "category": "XBOX"
+    },
+    {
+        "id": "stray_ps",
+        "name": "Stray",
+        "price": 1250,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "stray_pc",
+        "name": "Stray",
+        "price": 1000,
+        "category": "PC"
+    },
+    {
+        "id": "stray_xbox",
+        "name": "Stray",
+        "price": 1250,
+        "category": "XBOX"
+    },
+    {
+        "id": "ps_gift_30",
+        "name": "Playstation Store Gift Card 30 Reais",
+        "price": 1000,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "ps_gift_60",
+        "name": "Playstation Store Gift Card 60 Reais",
+        "price": 2000,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "ps_gift_100",
+        "name": "Playstation Store Gift Card 100 Reais",
+        "price": 3000,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "ps_gift_250",
+        "name": "Playstation Store Gift Card 250 Reais",
+        "price": 4500,
+        "category": "PLAYSTATION"
+    },
+    {
+        "id": "steam_gift_50",
+        "name": "Steam Gift Card 50 Reais",
+        "price": 1500,
+        "category": "PC"
+    },
+    {
+        "id": "steam_gift_100",
+        "name": "Steam Gift Card 100 Reais",
+        "price": 2000,
+        "category": "PC"
+    },
+    {
+        "id": "steam_gift_200",
+        "name": "Steam Gift Card 200 Reais",
+        "price": 3000,
+        "category": "PC"
+    },
+    {
+        "id": "xbox_gift_60",
+        "name": "Xbox Gift Card 60 Reais",
+        "price": 4500,
+        "category": "XBOX"
+    },
+    {
+        "id": "xbox_gift_100",
+        "name": "Xbox Gift Card 100 Reais",
+        "price": 1750,
+        "category": "XBOX"
+    },
+    {
+        "id": "xbox_gift_200",
+        "name": "Xbox Gift Card 200 Reais",
+        "price": 2800,
+        "category": "XBOX"
+    }
+]
