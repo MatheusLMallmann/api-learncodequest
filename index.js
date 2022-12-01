@@ -1,13 +1,15 @@
-const dotenv = require("dotenv");
 const express = require('express');
 const mongoose = require('mongoose');
+require('dotenv').config();
 const cors = require('cors');
-dotenv.config();
+
 const PORT = process.env.PORT || 3000;
 const uri = process.env.MONGO_URL;
 
+const app = express();
+
 // Produção
-mongoose.connect(uri,{
+const conn = mongoose.connect(uri,{
     useNewUrlParser: true
 })
 .then(() => console.log('Connected to DB'))
@@ -19,7 +21,6 @@ mongoose.connect(uri,{
 .then(() => console.log('Connected to DB'))
 .catch(console.error);*/
 
-const app = express();
 
 app.use(cors({
     origin: '*'
