@@ -9,7 +9,7 @@ const uri = process.env.MONGO_URL;
 const app = express();
 
 // Produção
-const conn = mongoose.connect(uri,{
+const conn = mongoose.connect('mongodb+srv://admin-matheuslm:1OoZc8w6JbrSgLld@cluster0.kguwi9x.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser: true
 })
 .then(() => console.log('Connected to DB'))
