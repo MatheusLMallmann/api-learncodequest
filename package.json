@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "vercel-build": "node ./build.js"
   },
   "author": "Matheus Larentis Mallmann",
   "license": "ISC",
@@ -16,5 +17,8 @@
     "express": "^4.18.2",
     "mongoose": "^6.7.5",
     "python-shell": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.7.0"
   }
 }
