@@ -3,35 +3,35 @@
         "titulo": "Desafio 1 - Adição de valores",
         "descricaoDesafio": "Altere a função para que ela retorne a adição de dois valores recebidos via parâmetro",
         "initialCode": "def add(a, b):",
-        "code": "import sys \n\n {code} \n\n if __name__ == \"__main__\": \n\t a = int(sys.argv[1]) \n\t b = int(sys.argv[2]) \n\t result = int(sys.argv[3]) \n\t print(add(a,b) == result)",
+        "code": "import sys\n{code}\nif __name__ == \"__main__\":\n\ta = int(sys.argv[1])\n\tb = int(sys.argv[2])\n\tresult = int(sys.argv[3])\n\tprint(add(a,b) == result)",
         "reward": "100"
     },
     {
         "titulo": "Desafio 2 - Multiplicação de valores",
         "descricaoDesafio": "Altere a função para que ela retorne a multiplicação de dois valores recebidos via parâmetro",
         "initialCode": "def multi(a, b):",
-        "code": "import sys \n\n {code} \n\n if __name__ == \"__main__\": \n\t a = int(sys.argv[1]) \n\t b = int(sys.argv[2]) \n\t result = int(sys.argv[3]) \n\t print(multi(a,b) == result)",
+        "code": "import sys\n{code}\nif __name__ == \"__main__\":\n\ta = int(sys.argv[1])\n\tb = int(sys.argv[2])\n\tresult = int(sys.argv[3])\n\tprint(multi(a,b) == result)",
         "reward": "100"
     },
     {
         "titulo": "Desafio 3 - Par ou impar",
         "descricaoDesafio": "Altere a função para que ela retorne se o número informado é par ou impar",
         "initialCode": "def parOuImpar(numero):",
-        "code": "import sys \n\n {code} \n\n if __name__ == \"__main__\": \n\t a = int(sys.argv[1]) \n\t result = int(sys.argv[3]) \n\t print(parOuImpar(a) == result)",
+        "code": "import sys\n{code}\nif __name__ == \"__main__\":\n\ta = int(sys.argv[1])\n\tresult = str(sys.argv[2])\n\tprint(parOuImpar(a) == result)",
         "reward": "300"
     },
     {
         "titulo": "Desafio 4 - Hipotenusa",
         "descricaoDesafio": "Altere a função para que ela retorne o valor da hipotenusa com a informação dos catetos. Utilize a biblioteca math para obter o resultado da raiz quadrada.",
         "initialCode": "def hipotenusa(a, b):",
-        "code": "import sys \n import math \n\n {code} \n\n if __name__ == \"__main__\": \n\t a = int(sys.argv[1]) \n\t b = int(sys.argv[2]) \n\t result = int(sys.argv[3]) \n\t print(hipotenusa(a,b) == result)",
+        "code": "import sys\nimport math\n{code}\nif __name__ == \"__main__\":\n\ta = int(sys.argv[1])\n\tb = int(sys.argv[2])\n\tresult = int(sys.argv[3])\n\tprint(hipotenusa(a,b) == result)",
         "reward": "500"
     },
     {
         "titulo": "Desafio 5 - Repetições",
         "descricaoDesafio": "Altere a função para que ela retorne a soma do número informado com ele mesmo pela quantidade de vezes informada. Exemplo: numero = 5, qtdVezes = ",
         "initialCode": "def repeticao(numero, qtdVezes):",
-        "code": "import sys \n\n {code} \n\n if __name__ == \"__main__\": \n\t numero = int(sys.argv[1]) \n\t qtdVezes = int(sys.argv[2]) \n\t result = int(sys.argv[3]) \n\t print(repeticao(numero,qtdVezes) == result)",
+        "code": "import sys\ndef repeticao(numero,qtdVezes):\n\tresultado = numero\n\tfor x in range(qtdVezes):\n\t\tresultado += numero\n\treturn resultado\nif __name__ == \"__main__\":\n\tnumgero = int(sys.argv[1])\n\tqtdVezes = int(sys.argv[2])\n\tresult = int(sys.argv[3])\n\tprint(repeticao(numero,qtdVezes) == result)",
         "reward": "500"       
     }
 ]

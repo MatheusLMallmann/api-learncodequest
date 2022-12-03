@@ -43,13 +43,14 @@ router.get('/login', async(request, response) => {
     //const {email, password} = request.body;
     
     try{
-        //const user = await userModel.findOne({ email }).select('+password');
-        console.log('oi');
-        const user = userModel.find({ email: email }).select('+password');
+        const user = await userModel.findOne({ email }).select('+password');
+        //const user = await userModel.findOne({ email }).select('password');
 
         if(!user)
-            return response.status(400).send({ error: 'User not found' });
+            return response.status(400).send({ error: 'User not found'});
 
+        console.log(user.password);
+        
         if(!await bcrypt.compare(password, user.password))
             return response.status(400).send({ error: 'Invalid password!'});
 
@@ -63,9 +64,10 @@ router.get('/login', async(request, response) => {
             purchasesHistoric: user.purchasesHistoric
         });
     } catch(err) {
+        console.log(err);
         return response.status(404).send({ 
             error: 'Unexpected error ocurred. Please try again later.',
-            message: err
+            message: err.message
         });
     }
 })

@@ -13,7 +13,7 @@ mongoose.connect(uri,{
     useNewUrlParser: true
 })
 .then(() => console.log('Connected to DB'))
-.catch(console.error);
+.catch((err) => console.log(err));
 
 /*mongoose.connect('mongodb://localhost:27017/myapp',{
     useNewUrlParser: true
@@ -31,6 +31,6 @@ require('./controllers/userController')(app);
 require('./controllers/projectController')(app);
 require('./controllers/storeController')(app);
 
-app.listen(PORT, () => {
+app.listen(80, () => {
     console.log(`Server is listening on port http://localhost:${PORT}`);
 });
