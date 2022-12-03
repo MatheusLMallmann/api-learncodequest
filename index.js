@@ -31,6 +31,6 @@ require('./controllers/userController')(app);
 require('./controllers/projectController')(app);
 require('./controllers/storeController')(app);
 
-app.listen(80, () => {
+app.listen(PORT, () => {
     console.log(`Server is listening on port http://localhost:${PORT}`);
 });
